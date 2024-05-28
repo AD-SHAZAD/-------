@@ -1,7 +1,7 @@
 var Score = 10;
 let startTime;
 var __ended = false
-
+document.getElementById('h1').innerHTML = Score;
 function Button_Click(){
     if (Score === 10 && startTime === undefined) { startTime = Date.now(); }
     if (Score === 1) { 
