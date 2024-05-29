@@ -1,9 +1,9 @@
-var Score = 1000;
+var Score = 2000;
 let startTime;
 var __ended = false
 document.getElementById('h1').innerHTML = Score;
 function Button_Click(){
-    if (Score === 1000 && startTime === undefined) { startTime = Date.now(); }
+    if (Score === 2000 && startTime === undefined) { startTime = Date.now(); }
     if (Score === 1) { 
         document.getElementById('h1').style.fontSize = '30%';
         // Calculate and display the elapsed time
